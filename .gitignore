@@ -1,0 +1,27 @@
+# ==============================
+# AnyGrasp ROS2 - ignores
+# ==============================
+
+# ---- AnyGrasp weights / checkpoints (specific) ----
+anygrasp_sdk/grasp_detection/log/checkpoint_detection.tar
+
+# ---- GraspNet dataset inside repo (specific path you showed) ----
+anygrasp_sdk/grasp_detection/data/graspnet/
+
+# ---- dumps produced by your eval (specific) ----
+anygrasp_sdk/grasp_detection/dumps_anygrasp_grasps/
+
+# ---- license files must NEVER be committed (keep directory only) ----
+anygrasp_sdk/grasp_detection/license/*
+!anygrasp_sdk/grasp_detection/license/.gitkeep
+
+# ---- log directory should be present but empty (keep directory only) ----
+anygrasp_sdk/grasp_detection/log/*
+!anygrasp_sdk/grasp_detection/log/.gitkeep
+
+# ---- common junk ----
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/

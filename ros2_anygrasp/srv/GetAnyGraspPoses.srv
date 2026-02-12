@@ -1,0 +1,14 @@
+# Request is empty: just "plan grasps from the current RGBD frame"
+---
+
+# Whether the grasp planning succeeded
+bool success
+
+# Human-readable message (for debugging)
+string message
+
+# Top-K 6D grasps in the camera frame
+geometry_msgs/PoseArray grasps
+
+# Score for each grasp (same length as grasps.poses)
+float32[] scores
