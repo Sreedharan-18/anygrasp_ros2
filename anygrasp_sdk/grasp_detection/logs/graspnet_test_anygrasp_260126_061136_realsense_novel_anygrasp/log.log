@@ -1,0 +1,1 @@
+[06:11:36] {/home/iki/ws_ros2/src/anygrasp_ros2/anygrasp_sdk/grasp_detection/anygrasp_eval_dump.py:380} INFO - [START] scenes=[160,175) camera=realsense dump_dir=./pred_graspnet
